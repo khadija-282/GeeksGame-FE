@@ -1,0 +1,8 @@
+{
+  "ServiceUri": "https://localhost:44335",
+  "TopBottomAnimationDuration":3,
+  "ResetTurnafterDrop":100,
+  "WinningPoint":20,
+  "LosingPoint":5,
+  "PanningScale":20
+  }

@@ -28,9 +28,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css", 
+              "node_modules/primeng/resources/themes/saga-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/jquery/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "src/jquery/script.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "geeksgame"
+  "defaultProject": "geeksgame",
+  "cli": {
+    "analytics": "a8a3fbdd-f572-4507-8901-ed95abd30f61"
+  }
 }
